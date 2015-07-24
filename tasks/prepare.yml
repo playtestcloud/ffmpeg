@@ -5,22 +5,19 @@
   action: apt pkg={{ item }} state=present
   with_items:
     - git-core
-    - autoconf 
-    - automake 
-    - build-essential 
-    - libass-dev 
+    - autoconf
+    - automake
+    - build-essential
+    - libass-dev
     - libgpac-dev
-    - libsdl1.2-dev 
-    - libtheora-dev 
-    - libtool 
-    - libva-dev 
-    - libvdpau-dev 
-    - libvorbis-dev 
-    - libx11-dev
-    - libxext-dev 
-    - libxfixes-dev 
-    - pkg-config 
-    - texi2html 
+    - libsdl1.2-dev
+    - libtheora-dev
+    - libtool
+    - libva-dev
+    - libvdpau-dev
+    - libvorbis-dev
+    - pkg-config
+    - texi2html
     - zlib1g-dev
     - libmp3lame-dev
 
