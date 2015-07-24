@@ -21,5 +21,8 @@
     - zlib1g-dev
     - libmp3lame-dev
 
+- apt: name=libx264-142 state=absent
+- apt: name=libx264-dev state=absent
+
 - name: make source folder
   file: dest={{ ffmpeg_source_dir }}/ffmpeg_source state=directory
